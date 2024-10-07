@@ -41,6 +41,10 @@ nav a:hover {
     display: flex;
 }
 
+.nav__list {
+    display: flex;
+}
+
 .banner {
     background-image: url("../img/HORRRRRRRROR.jpg"); /* Add a spooky banner image */
     background-size: cover;
@@ -52,15 +56,7 @@ nav a:hover {
     color: #f76300;
     font-size: 2.5em;
 }
-.section {
-    padding: 40px;
-    text-align: center;
-}
-.products {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
 .product {
     background-color: #444;
     padding: 20px;
